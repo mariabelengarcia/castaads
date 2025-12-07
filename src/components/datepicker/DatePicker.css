@@ -1,0 +1,72 @@
+.datepicker {
+  border: 1px solid #e6e6f2;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.datepicker-row {
+  margin-bottom: 12px;
+}
+
+.datepicker-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.datepicker-date {
+  width: fill-available;
+  padding: 8px 10px;
+  border: 1px solid #dcdcf0;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.datepicker-times {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(84px, 1fr));
+  gap: 8px;
+}
+
+.time-slot {
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #e6e6f2;
+  background: #fafafa;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.time-slot.selected {
+  background: #4949bf;
+  color: white;
+  border-color: #4949bf;
+}
+
+.time-slot:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.datepicker-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.datepicker-confirm {
+  background: #4949bf;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.datepicker-confirm:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

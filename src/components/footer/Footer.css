@@ -1,0 +1,36 @@
+.site-footer {
+  background: #f6f7fb;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 20px 64px;
+}
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.footer-brand {
+  font-weight: 700;
+  color: #4949bf;
+}
+.footer-nav a {
+  margin: 0 8px;
+  color: #333;
+  text-decoration: none;
+}
+.footer-nav a:hover {
+  color: #4949bf;
+  text-decoration: underline;
+}
+.footer-copy {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+}

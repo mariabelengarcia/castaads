@@ -1,0 +1,40 @@
+.contact-main {
+  padding: 120px 64px 48px 64px;
+  
+}
+.contact-main h1 {
+  margin: 1rem 0;
+}
+.contact-main h2 {
+  font-size: 3rem;
+  color: #4949bf;
+  margin-top: 0;
+}
+
+.contact-main img{
+  width: 120px;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+    .contact-main {
+    padding: 120px 24px 24px 24px;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .contact-form{
+    width: 100%;
+  }
+  .contact-main h2{
+  font-size: 1.8rem ;
+}
+}

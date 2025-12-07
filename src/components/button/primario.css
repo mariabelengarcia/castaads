@@ -1,0 +1,19 @@
+.boton-primario {
+  padding: 10px 12px;
+  background: #4949bf;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 3px solid #4949bf;
+  width: auto;
+}
+
+.boton-primario:hover {
+  background: #ffffff;
+  border: 3px solid #4949bf;
+  color:#4949bf;
+  transition: transform 0.5s ease-in-out;
+}

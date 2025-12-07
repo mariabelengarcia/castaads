@@ -1,0 +1,25 @@
+.project-header {
+  max-width: 900px;
+  margin: 0 auto 18px;
+}
+
+.project-header h1 {
+  margin-bottom: 8px;
+}
+
+.project-header p {
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 8px;
+  color: #4949bf;
+  text-decoration: none;
+}
+
+.project-carousel {
+  max-width: 900px;
+  margin: 0 auto;
+}

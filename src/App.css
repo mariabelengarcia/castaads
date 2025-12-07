@@ -1,0 +1,223 @@
+@font-face {
+  font-family: "Ulagadi";
+  src: local("Ulagadi Regular"), local("UlagadiSansRegular"),
+    url("./assets/fonts/UlagadiSansRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ulagadi";
+  src: local("Ulagadi Medium"), local("UlagadiSansMedium"),
+    url("./assets/fonts/UlagadiSansMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ulagadi";
+  src: local("Ulagadi SemiBold"), local("UlagadiSansSemiBold"),
+    url("./assets/fonts/UlagadiSansSemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Ulagadi";
+  src: local("Ulagadi Bold"), local("UlagadiSansBold"),
+    url("./assets/fonts/UlagadiSansBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root,
+html,
+body {
+  font-family: "Ulagadi", "UlagadiSans", system-ui, -apple-system, "Segoe UI",
+    'Roboto', "Helvetica Neue", Arial, sans-serif;
+}
+
+
+#root {
+  height: 100%;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex {
+  display: flex;
+}
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.align-items-center {
+  align-items: center;
+}
+
+main {
+  min-height: calc(100vh - 220px);
+  padding: 110px 0px;
+}
+
+h1 {
+  color: #2c2e49;
+  font-size: 4rem;
+}
+
+.main-title {
+  background-image: url('./assets/img/flecha.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: auto 1.2em; 
+}
+
+
+.home {
+  display: flex; 
+  align-items: center;
+  gap: 32px;
+}
+
+.home > .main-title {
+  flex: 1 1 50%;
+  max-width: 55%;
+}
+
+.home > div:last-child {
+  flex: 1 1 45%;
+  display: flex;
+  justify-content: center;
+}
+
+.home img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.home {
+  padding: 64px;
+}
+
+.conocenos {
+  background-color: #4949bf29;
+   padding: 32px  64px 80px 64px;
+}
+
+.conocenos h2{
+  font-size: 3rem;
+  color: #4949bf;
+}
+
+.conocenos-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  justify-content:space-between;
+ 
+}
+
+.conocenos-text-row {
+  display: flex; 
+  gap: 24px; 
+}
+
+.conocenos-text-row > div {
+  flex: 1 1 0;
+}
+.conocenos-text-row p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+.conocenos-image img {
+  width: 120px;
+  height: auto;
+  display: block;
+}
+
+.trabajos{
+  padding: 64px;
+}
+
+.trabajos h2{
+  font-size: 3rem;
+  color: #6cc4c7;
+  text-align: end;
+}
+.cards-container {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  justify-content: space-between;
+  
+}
+
+
+
+@media (max-width: 992px) {
+  main {
+    padding: 90px 0px;
+  }
+  .main-title h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
+   .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+    gap: 16px;
+  }
+
+  .home > .main-title {
+    max-width: 100%;
+  }
+
+  .home > div:last-child {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+  }
+
+  .main-title button {
+    margin: 16px auto 0 auto;
+    display: inline-block;
+  }
+  .conocenos-text-row {
+    flex-direction: column;
+  }
+  .conocenos-row {
+  display: block;
+  align-items: center;
+  gap: 24px;
+}
+
+h2{
+  font-size: 1.8rem ;
+}
+
+.trabajos h2{
+  text-align: center;
+}
+.conocenos-image img {
+display: none;}
+
+}

@@ -1,0 +1,17 @@
+
+
+.boton-secundario {
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 3px solid #64c1c1;
+  color: #64c1c1;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  width: auto;
+}
+
+.boton-secundario:hover {
+  background: #f0fbfa;
+}

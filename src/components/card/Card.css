@@ -1,0 +1,42 @@
+.card {
+  width: 320px;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform .2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  background-color: #6cc4c743;
+  
+}
+
+.card-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  margin: 0 0 8px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #222;
+}
+
+.card-text {
+  margin: 0;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.4;
+}
+
+.card-link{
+  text-decoration: none;
+}
